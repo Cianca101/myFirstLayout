@@ -9,19 +9,22 @@
 </head>
 <body>
     <header>
-        <div>
-            <img  src="assets/images/maskgroup.png" alt="imagen de fondo">
-        </div>
         <nav>
             <img class="logo" src="assets/images/indexedlogo.png" alt="logo">
-            <ol>
                 <ul>
-                    <a>Home</a>
-                    <a>Pricing</a>
-                    <a>Newsletter</a>
-                    <a>Sign Up</a>
+                    <li>
+                        <a>Home</a>
+                    </li>
+                    <li>
+                        <a> Pricing</a>
+                    </li>
+                    <li>
+                        <a> Newsletter</a>
+                    </li>
+                    <li>
+                        <button class="boton-sign-up"> Sign Up</button>
+                    </li>
                 </ul>
-            </ol>
         </nav>
         <div1>
             <h1>Pricing made easy</h1>
@@ -32,12 +35,16 @@
 
     <main>
         <section>
-            <article1>
-                <h2>Starter Plan</h2>
-                <h2>$6.99/mo</h2>
-                <h3>$83.88 billed anually</h3>
+            <article class="article1">
+                <header>
+                    <h2>Starter Plan</h2>
+                </header>
+                <div>
+                    <h2>$6.99/mo</h2>
+                    <h3 class="billed">$83.88 billed anually</h3>
+                </div>
                 <button class="boton-azul">Start Indexing --></button>
-                <ul>
+                <ul class="li">
                     <li>5,000 Index requests per month.</li>
                     <li>1 Tem member only.</li>
                     <li>.json export</li>
@@ -45,14 +52,14 @@
                     <li>Queque enabled.</li>
                     <li>20s avg. response time.</li>
                 </ul>
-            </article1>
+            </article>
 
-            <article2>
+            <article class="article2">
                 <h2>Advanced Plan</h2>
-                <h2>12.99/mo</h2>
-                <h3>$155.88 billed anually</h3>
-                <button>Start Indexing --></button>
-                <ul>
+                <h2>$12.99/mo</h2>
+                <h3 class="billed">$155.88 billed anually</h3>
+                <button class="boton-blanco">Start Indexing --></button>
+                <ul class="li">
                     <li>All starter plan features.</li>
                     <li>5 team members.</li>
                     <li>.json and xml export.</li>
@@ -60,14 +67,14 @@
                     <li>No queque.</li>
                     <li>5s abg. response time.</li>
                 </ul>
-            </article2>
+            </article>
 
-            <article3>
+            <article class="article3">
                 <h2>Pro Plan</h2>
-                <h2>20.99/mo</h2>
-                <h3>$440.78 billed anually</h3>
+                <h2>$20.99/mo</h2>
+                <h3 class="billed">$440.78 billed anually</h3>
                 <button class="boton-azul">Start Indexing --></button>
-                <ul>
+                <ul class="li">
                     <li>All advanced plan features.</li>
                     <li>Unlimited requests per/mo.</li>
                     <li>All file types exports.</li>
@@ -75,7 +82,7 @@
                     <li>No queque.</li>
                     <li>Instant response.</li>
                 </ul>
-            </article3>
+            </article>
         </section>
     </main>
 </body>

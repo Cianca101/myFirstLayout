@@ -1,21 +1,24 @@
-body {
-    font-family: "DM Sans", sans-serif;
+* {
+    box-sizing: border-box;
+    font-family: DM Sans;
 }
 
-header div{
-    background-image:img();
+header{
+    background-image: url("../assets/images/MaskGroup.png");
+    height: 40%;
 }
 
 header nav img{
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
 }
 
-header nav ol{
+header nav ul{
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-around;
     align-items: flex-start;
+    list-style:none;
 }
 
 header div1 h1{
@@ -36,32 +39,78 @@ header div1 p1{
     align-items: center;
 }
 
+main{
+    height: 60%;
+    width: 100%;
+}
+
 main section{
-    display: flex;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+
+.boton-sign-up{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
 }
 
 .boton-azul{
     background-color: blue;
-}
-
-main section article1{
-    border: 1px solid black;
+    color: white;
     border-radius: 5px;
-    display: flex;
-    justify-content: flex-start;
-}
-
-main section article2{
-    background-color: blue;
-    border: 1px solid purple;
-    border-radius: 5px;
-    display: flex;
+    width: 80%;
+    display:flex;
     justify-content: center;
 }
 
-main section article3{
+.boton-blanco{
+    background-color: white;
+    color: blue;
+    border-radius: 5px;
+    width: 80%;
+    display:flex;
+    justify-content: center;
+}
+
+.li{
+    display: list-item;
+    list-style: none;
+}
+
+.article1{
     border: 1px solid black;
     border-radius: 5px;
     display: flex;
-    justify-content: flex-end;
+    flex-direction:column;
+    justify-content:center; 
+    width:20%;
+    height: 80%;
+}
+
+.article2{
+    background-color: blue;
+    border: 1px solid purple;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    width:20%;
+    height: 80%;
+}
+
+.article3{
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    width:20%;
+    height: 80%;
+}
+
+.billed{
+    color:gray;
 }
