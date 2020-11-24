@@ -14,6 +14,10 @@ header nav img{
     align-items: center;
 }
 
+.letra-morada{
+    color:lightgreen;
+}
+
 header nav ul{
     display: flex;
     justify-content: space-around;
